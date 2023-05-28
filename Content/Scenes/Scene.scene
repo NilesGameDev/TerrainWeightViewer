@@ -1,0 +1,442 @@
+{
+	"ID": "fef206054358d564f8a612a877a070c8",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6339,
+	"Data": [
+		{
+			"ID": "fef206054358d564f8a612a877a070c8",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "dff9afdf407fa262b151038b319398ba",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "fef206054358d564f8a612a877a070c8",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "6c4526ac41e94b8ed751ac94973f30fc",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "fef206054358d564f8a612a877a070c8",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "dff9afdf407fa262b151038b319398ba"
+		},
+		{
+			"ID": "73e6cc7b4651e8a9239f278f0eb196f9",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "fef206054358d564f8a612a877a070c8",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "178287004fcce8c16be671b87f28f491",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "fef206054358d564f8a612a877a070c8",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 5225.90576171875,
+					"Y": 10806.5625,
+					"Z": 5170.87890625
+				},
+				"Orientation": {
+					"X": 0.6801223754882813,
+					"Y": 0.00029085800633765757,
+					"Z": -0.0002698396274354309,
+					"W": 0.7330985069274902
+				}
+			}
+		},
+		{
+			"ID": "45f4ea81474d39f1f3a307bafe1a7aec",
+			"TypeName": "FlaxEngine.Terrain",
+			"ParentID": "fef206054358d564f8a612a877a070c8",
+			"Name": "Terrain",
+			"Material": "a57a825448daca50f9590796cb1f4254",
+			"LODCount": 6,
+			"ChunkSize": 31,
+			"Patches": [
+				{
+					"X": 0,
+					"Z": 0,
+					"Offset": -0.000015259021893143655,
+					"Height": 1.0,
+					"Heightmap": "1906096c41b32bc35462d7919decd9a4",
+					"Splatmap0": "216620534d488d15e563be9aa175d6c6",
+					"Splatmap1": "00000000000000000000000000000000",
+					"Heightfield": "be8205214c1833d1fc4215bcbbddbb30",
+					"Chunks": [
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						},
+						{
+							"Offset": 0.0,
+							"Height": 1.0,
+							"Material": "00000000000000000000000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "26d266e241711784bdb0979ffe4d0f2d",
+			"TypeName": "Game.TerrainUtils",
+			"ParentID": "45f4ea81474d39f1f3a307bafe1a7aec",
+			"V": {
+	"SplatMapInfoTextBoxUI": "b4a377a84d37ac02a47b5584fc5a3378",
+	"HitTextBoxUI": "d0e6ea364dcd77b730b538abaf5c5c83"
+}
+		},
+		{
+			"ID": "444632d246b5e6c2c55e7499827bd1ae",
+			"TypeName": "FlaxEngine.UICanvas",
+			"ParentID": "fef206054358d564f8a612a877a070c8",
+			"Name": "Main UI",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {}
+		},
+		{
+			"ID": "b4a377a84d37ac02a47b5584fc5a3378",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "444632d246b5e6c2c55e7499827bd1ae",
+			"Name": "SplatMapInfoTextBox",
+			"Transform": {
+				"Translation": {
+					"X": 14.0,
+					"Y": 13.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.TextBox",
+			"Data": {
+	"WatermarkText": null,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": null,
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"WatermarkTextColor": {
+		"R": 0.470588237,
+		"G": 0.470588237,
+		"B": 0.5137255,
+		"A": 1.0
+	},
+	"SelectionColor": {
+		"R": 0.0,
+		"G": 0.478431374,
+		"B": 0.8,
+		"A": 1.0
+	},
+	"EndEditOnClick": true,
+	"IsMultiline": false,
+	"MaxLength": 2147483646,
+	"IsReadOnly": false,
+	"IsSelectable": true,
+	"ClipText": true,
+	"IsMultilineScrollable": true,
+	"BackgroundSelectedColor": {
+		"R": 0.247058824,
+		"G": 0.247058824,
+		"B": 0.274509817,
+		"A": 1.0
+	},
+	"CaretColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"CaretFlashSpeed": 6.0,
+	"BackgroundSelectedFlashSpeed": 6.0,
+	"BorderColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"BorderSelectedColor": {
+		"R": 0.0,
+		"G": 0.478431374,
+		"B": 0.8,
+		"A": 1.0
+	},
+	"Text": "",
+	"SelectionRange": {
+		"StartIndex": -1,
+		"EndIndex": -1
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 14.0,
+		"Right": 250.0,
+		"Top": 13.0,
+		"Bottom": 18.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.2,
+		"G": 0.2,
+		"B": 0.215686277,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "d0e6ea364dcd77b730b538abaf5c5c83",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "444632d246b5e6c2c55e7499827bd1ae",
+			"Name": "WorldHitTextBox",
+			"Transform": {
+				"Translation": {
+					"X": 14.0,
+					"Y": 38.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.TextBox",
+			"Data": {
+	"WatermarkText": null,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 9
+	},
+	"TextMaterial": null,
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"WatermarkTextColor": {
+		"R": 0.470588237,
+		"G": 0.470588237,
+		"B": 0.5137255,
+		"A": 1.0
+	},
+	"SelectionColor": {
+		"R": 0.0,
+		"G": 0.478431374,
+		"B": 0.8,
+		"A": 1.0
+	},
+	"EndEditOnClick": true,
+	"IsMultiline": false,
+	"MaxLength": 2147483646,
+	"IsReadOnly": false,
+	"IsSelectable": true,
+	"ClipText": true,
+	"IsMultilineScrollable": true,
+	"BackgroundSelectedColor": {
+		"R": 0.247058824,
+		"G": 0.247058824,
+		"B": 0.274509817,
+		"A": 1.0
+	},
+	"CaretColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"CaretFlashSpeed": 6.0,
+	"BackgroundSelectedFlashSpeed": 6.0,
+	"BorderColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"BorderSelectedColor": {
+		"R": 0.0,
+		"G": 0.478431374,
+		"B": 0.8,
+		"A": 1.0
+	},
+	"Text": "",
+	"SelectionRange": {
+		"StartIndex": -1,
+		"EndIndex": -1
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 14.0,
+		"Right": 250.0,
+		"Top": 38.0,
+		"Bottom": 18.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.2,
+		"G": 0.2,
+		"B": 0.215686277,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		}
+	]
+}
